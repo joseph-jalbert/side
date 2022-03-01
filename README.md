@@ -16,7 +16,7 @@ There are various things I did not implement becuase of time constraints:
 6) Regarding the 'useFavorite()' custom hook used in the ListingCard component - the implementation could be much cleaner here and I am aware that there is a bug in the behavior. I could fix it with some fresh eyes - but alas I have run out of time 
 
 Some other things I would add if I had more time:
--dedicated route functions as an abstraction layer to handle route level business logic, i.e. authorization for protected routes
--constants files for strings and other values that should not be hard-coded
--a more robust approach to REST behavior - either utilize a global state management tool or a dedicated library such as React Query
+1) dedicated route functions as an abstraction layer to handle route level business logic, i.e. authorization for protected routes
+2) constants files for strings and other values that should not be hard-coded
+3) a more robust approach to REST behavior - either utilize a global state management tool or a dedicated library such as React Query
 
